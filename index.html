@@ -1,0 +1,423 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="../css/layout.css" rel="stylesheet" type="text/css" />
+<title>UAB - Constru&ccedil;&otilde;es Geom&eacute;tricas</title>
+<script src="../SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<link href="../SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/demo.js"></script>
+<script type="text/javascript" src="../js/mootools.js"></script>
+<script type="text/javascript" src="../js/liveclock.js"></script>
+<script type="text/javascript" src="../js/FancyZoom.js"></script>
+<script type="text/javascript" src="../js/FancyZoomHTML.js"></script>
+<script type="text/javascript" src="../js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="../js/jquery-tooltip/lib/jquery.js"></script>
+<script src="../js/jquery-tooltip/lib/jquery.bgiframe.js" type="text/javascript"></script>
+<script src="../js/jquery-tooltip/lib/jquery.dimensions.js" type="text/javascript"></script>
+<script type="text/javascript" src="../js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="../js/jquery-tooltip/jquery.tooltip.js"></script>
+<link href="../js/jquery-tooltip/jquery.tooltip.css" rel="stylesheet" />
+<script src="../js/jquery-tooltip/demo/chili-1.7.pack.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+$('#tip1 a').tooltip({
+	track: true,
+	delay: 0,
+	showURL: false,
+	showBody: " - ",
+	fade: 250
+});
+$('#tip2 a').tooltip({
+	track: true,
+	delay: 0,
+	showURL: false,
+	showBody: " - ",
+	fade: 250
+});
+});
+  $(document).ready(function(){
+    $("#animar1").click(function(){
+      $("#bloco1").animate( { opacity:0}, 200 )
+         .animate( { width:"90%" } , 400 )
+		 .animate( { fontSize:"12px" } , 600 )
+		 .animate( { opacity:1 } , 1000 )
+         .animate( { borderLeftWidth:"15px" }, 1200);
+    });
+    $("#animar2").click(function(){
+      $("#bloco2").animate( { opacity:0}, 200 )
+         .animate( { width:"90%" } , 400 )
+		 .animate( { fontSize:"12px" } , 600 )
+		 .animate( { opacity:1 } , 1000 )
+         .animate( { borderRightWidth:"15px" }, 1200);
+    });
+    $("#animar3").click(function(){
+      $("#bloco3").animate( { opacity:0}, 200 )
+         .animate( { width:"90%" } , 400 )
+		 .animate( { fontSize:"12px" } , 600 )
+		 .animate( { opacity:1 } , 1000 )
+         .animate( { borderRightWidth:"15px" }, 1200);
+	});
+    $("#animar4").click(function(){
+      $("#bloco4").animate( { opacity:0}, 200 )
+         .animate( { width:"90%" } , 400 )
+		 .animate( { fontSize:"12px" } , 600 )
+		 .animate( { opacity:1 } , 1000 )
+         .animate( { borderLeftWidth:"15px" }, 1200);
+	});
+    $("#animar5").click(function(){
+      $("#bloco5").animate( { opacity:0}, 200 )
+         .animate( { width:"90%" } , 400 )
+		 .animate( { fontSize:"12px" } , 600 )
+		 .animate( { opacity:1 } , 1000 )
+         .animate( { borderRightWidth:"15px" }, 1200);
+	});
+    $("#animar6").click(function(){
+      $("#bloco6").animate( { opacity:0}, 200 )
+         .animate( { width:"90%" } , 400 )
+		 .animate( { fontSize:"12px" } , 600 )
+		 .animate( { opacity:1 } , 1000 )
+         .animate( { borderLeftWidth:"15px" }, 1200);
+	});
+    $("#animar7").click(function(){
+      $("#bloco7").animate( { opacity:0}, 200 )
+         .animate( { width:"90%" } , 400 )
+		 .animate( { fontSize:"12px" } , 600 )
+		 .animate( { opacity:1 } , 1000 )
+         .animate( { borderRightWidth:"15px" }, 1200);
+	});
+	$("#esconder1").click(function(){
+      $("#bloco1").animate( { opacity:0}, 1000 )
+		 .animate( { fontSize:"0px" } , 1000 )
+		 .animate( { borderLeftWidth:"0px" } , 1000 );
+    });
+	$("#esconder2").click(function(){
+      $("#bloco2").animate( { opacity:0}, 1000 )
+		 .animate( { fontSize:"0px" } , 1000 )
+		 .animate( { borderRightWidth:"0px" } , 1000 );
+    });
+	$("#esconder3").click(function(){
+      $("#bloco3").animate( { opacity:0}, 1000 )
+		 .animate( { fontSize:"0px" } , 1000 )
+		 .animate( { borderRightWidth:"0px" } , 1000 );
+    });
+	$("#esconder4").click(function(){
+      $("#bloco4").animate( { opacity:0}, 1000 )
+		 .animate( { fontSize:"0px" } , 1000 )
+		 .animate( { borderLeftWidth:"0px" } , 1000 );
+    });
+	$("#esconder5").click(function(){
+      $("#bloco5").animate( { opacity:0}, 1000 )
+		 .animate( { fontSize:"0px" } , 1000 )
+		 .animate( { borderRightWidth:"0px" } , 1000 );
+    });
+	$("#esconder6").click(function(){
+      $("#bloco6").animate( { opacity:0}, 1000 )
+		 .animate( { fontSize:"0px" } , 1000 )
+		 .animate( { borderLeftWidth:"0px" } , 1000 );
+    });
+	$("#esconder7").click(function(){
+      $("#bloco7").animate( { opacity:0}, 1000 )
+		 .animate( { fontSize:"0px" } , 1000 )
+		 .animate( { borderRightWidth:"0px" } , 1000 );
+    });
+});
+</script>
+</head>
+
+<body onLoad="goforit();setupZoom();">
+<div class="cabecalho">
+        <div class="logoesq">
+          <div class="logo1"><img src="../imgs/uab.png" width="264" height="100" /></div>
+		  <div class="logo2"><img src="../imgs/dead.png" width="183" height="100" /></div>
+        </div>
+      </div>
+        <div class="logodir">
+          <div class="cursodireita">Constru&ccedil;&otilde;es Geom&eacute;tricas</div>
+          <div class="logodata">
+		  <script>
+
+/*
+Live Date Script- 
+© Dynamic Drive (www.dynamicdrive.com)
+For full source code, installation instructions, 100's more DHTML scripts, and Terms Of Use,
+visit http://www.dynamicdrive.com
+*/
+
+
+var dayarray=new Array("Domingo","Segunda-feira","Terça-feira","Quarta-feira","Quinta-feira","Sexta-feira","Sábado")
+var montharray=new Array("Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")
+
+function getthedate(){
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var hours=mydate.getHours()
+var minutes=mydate.getMinutes()
+var seconds=mydate.getSeconds()
+var dn="AM"
+if (hours>=12)
+dn="PM"
+if (hours>12){
+hours=hours-12
+}
+if (hours==0)
+hours=12
+if (minutes<=9)
+minutes="0"+minutes
+if (seconds<=9)
+seconds="0"+seconds
+//change font size here
+var cdate="<medium><font color='FFFFFF' face='Verdana'>"+dayarray[day]+", "+daym+" de "+montharray[month]+" de "+year+". Hora: "+hours+":"+minutes+":"+seconds+" "+dn+"</font></medium>"
+if (document.all)
+document.all.clock.innerHTML=cdate
+else if (document.getElementById)
+document.getElementById("clock").innerHTML=cdate
+else
+document.write(cdate)
+}
+if (!document.all&&!document.getElementById)
+getthedate()
+function goforit(){
+if (document.all||document.getElementById)
+setInterval("getthedate()",1000)
+}
+
+</script>
+<span id="clock"></span><img src="../imgs/relogio.png" width="33" height="32" hspace="10" align="absmiddle" /></div></div>
+<div id="corpo">
+		<div class="conteudo">
+        <div class="titulo">Aula 1 - <strong>Constru&ccedil;&otilde;es de paralelas e perpendiculares</strong></div>
+		  <div id="TabbedPanels1" class="TabbedPanels">
+		    <ul class="TabbedPanelsTabGroup">
+              <li class="TabbedPanelsTab" tabindex="0">APRESENTA&Ccedil;&Atilde;O</li>
+              <li class="TabbedPanelsTab" tabindex="0">T&Oacute;PICO 1</li>
+<li class="TabbedPanelsTab" tabindex="0">T&Oacute;PICO 2</li>
+<li class="TabbedPanelsTab" tabindex="0">REFER&Ecirc;NCIAS</li>
+		    </ul>
+		    <div class="TabbedPanelsContentGroup">
+              <div class="TabbedPanelsContent" style="position:relative">
+                <div class="divapres">
+                <p>Ol&aacute; aluno(a)!</p>
+                <p>Para estudar e praticar o Desenho Geom&eacute;trico &eacute;  preciso conhecer os instrumentos necess&aacute;rios para p&ocirc;r em pr&aacute;tica tudo o que vamos  aprender. Por isso iniciaremos a primeira aula apresentando esses instrumentos.  A seguir, daremos in&iacute;cio as primeiras constru&ccedil;&otilde;es que envolvem retas e &acirc;ngulos.</p>
+                <div class="objetivosini">
+                  <div class="objetivosico"><img src="../imgs/objetivos.png" width="168" height="50" /></div>
+                  <ul type="disc">
+                    <li>Aprender a tra&ccedil;ar paralelas e  perpendiculares</li>
+                    <li>Conhecer como se realizam as constru&ccedil;&otilde;es que envolvem  &acirc;ngulos</li>
+                  </ul>
+                </div>
+                </div>
+              </div>
+              <div class="TabbedPanelsContent" style="position:relative">
+                <div class="ntopico" style="position:absolute; left:-55px; top:17px; width: 58px; height: 48px;">&nbsp;1</div>
+                <div class="ntitulo"><strong>Conceitos iniciais</strong></div>
+                <div class="nsubtitulo">
+                  Objetivos
+                    <ul>
+                    <li>Identificar os entes geom&eacute;tricos</li>
+                    <li>Descrever e representar os entes geom&eacute;tricos</li>
+                    <li>Identificar a posi&ccedil;&atilde;o de uma reta e a posi&ccedil;&atilde;o  relativa de duas retas</li>
+                  </ul>
+                </div>
+                <p>Neste  t&oacute;pico, falaremos um pouco sobre os entes geom&eacute;tricos como ponto, linha, plano e  reta que representam elementos b&aacute;sicos no estudo de nossa disciplina.&nbsp; Iniciaremos fazendo uma apresenta&ccedil;&atilde;o breve  dos instrumentos necess&aacute;rios para p&ocirc;r em pr&aacute;tica nosso estudo sobre desenho  geom&eacute;trico.</p>
+                <h4 class="subtitulo2"><u><strong>1. I</strong></u><strong><u>strumentos de       desenho</u></strong></h4>
+                <div class="lightbox"> <a href="imagens/01.png" title="Figura 1 - Lapiseira e L&aacute;pis"><img src="imagens/imagem01.png" width="245" height="211" border="0" /></a></div>
+                <p><strong>a) L&aacute;pis ou lapiseira (conforme figura 1)</strong>: apresentam internamente o grafite ou mina, que tem grau de dureza. Vari&aacute;vel,  classificado por letras, n&uacute;meros ou a jun&ccedil;&atilde;o dos dois como mostra o quadro 1.</p>
+                <table border="1" cellspacing="0" cellpadding="0" align="left">
+                  <tr>
+                    <td width="288" valign="top"><p>Classifica&ccedil;&atilde;o    por n&uacute;meros</p></td>
+                    <td width="288" valign="top"><p>Classifica&ccedil;&atilde;o    por letras</p></td>
+                  </tr>
+                  <tr>
+                    <td width="288" valign="top"><p>N&ordm; 1 &ndash; macio &ndash; linha cheia<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; N&ordm; 2 &ndash; m&eacute;dio &ndash; linha m&eacute;dia<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; N&ordm; 3 &ndash; duro &ndash; linha fina </p></td>
+                    <td width="288" valign="top"><p>B &ndash; macio &ndash; equivalente ao n&ordm; 1<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp; HB &ndash; m&eacute;dio &ndash; equivalente ao n&ordm; 2<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp; H &ndash; duro &ndash; equivalente ao n&ordm; 3</p></td>
+                  </tr>
+                </table>
+<p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+<div class="referenciaBox">
+  <div id="animar1" class="boxicone"><img src="../imgs/vocesabia.png" width="90" height="222" /></div></div>
+<div id="bloco1" style="display:none;">
+  <p>As  lapiseiras apresentam gradua&ccedil;&atilde;o de acordo com a espessura do grafite. As  encontrada com mais frequ&ecirc;ncia s&atilde;o as de n&uacute;meros 0,3 &ndash; 0,5 &ndash; 0,7 e 1,0.</p>
+<div id="esconder1" class="fechar">Fechar <img src="../imgs/fechar.png" width="24" height="23" align="absmiddle" /></div>
+</div>
+<div style="clear:both;"></div>
+                <div class="lightboxdir"> <a href="imagens/02.png" title="Figura 2 - R&eacute;gua em acr&iacute;lico graduada em cm e mm"><img src="imagens/imagem02.png" width="245" height="211" border="0" /></a></div>
+                <p><strong>Quadro  1 &ndash; Tipos de grafites</strong></p>
+                <div class="lightbox"> <a href="imagens/03.png" title="Figura 3 - Esquadros de 45&ordm; e de 60&ordm;"><img src="imagens/imagem03.png" width="245" height="211" border="0" /></a></div>
+                <p><strong>b) Papel</strong>:  podem ser blocos, cadernos ou folhas avulsas (papel of&iacute;cio) de cor branca e sem  pautas. </p>
+                <p>c) <strong>R&eacute;gua:</strong> apresenta-se em acr&iacute;lico ou  pl&aacute;stico transparente, graduada em cm (cent&iacute;metros) e mm(mil&iacute;metros). </p>
+                <p>d) <strong>Par de esquadros</strong>: tamb&eacute;m em acr&iacute;lico ou  pl&aacute;stico transparente e sem gradua&ccedil;&atilde;o. Um deles possui &acirc;ngulos de&nbsp; 90&deg;, 45&deg; e 45&deg;, enquanto o outro com &acirc;ngulos  de 90&deg;, 60&deg; e 30&deg; (veja figura 3).</p>
+                <div class="referenciaBoxdir"><div id="animar2" class="boxiconedir"><img src="../imgs/atencaodir.png" width="90" height="222" /></div></div>
+<div id="bloco2" style="display:none;">
+  <p>Os  esquadros s&atilde;o destinados ao tra&ccedil;ado e n&atilde;o para medir, o que deve ser feito com  a r&eacute;gua.</p>
+<div id="esconder2" class="fechardir">Fechar <img src="../imgs/fechar.png" width="24" height="23" align="absmiddle" /></div>
+</div>
+<div style="clear:both;"></div>
+                <div class="lightboxdir"> <a href="imagens/04.png" title="Figura 4 - Compasso"><img src="imagens/imagem04.png" width="245" height="211" border="0" /></a></div>
+                <p>e) <strong>Compasso (figura 4)</strong>: instrumento usado  para tra&ccedil;ar circunfer&ecirc;ncias, arcos de circunfer&ecirc;ncias e transportar medidas. Possui  em uma de suas hastes a ponta seca e na outra o grafite. Ao abrirmos o  compasso, estabelecemos uma dist&acirc;ncia entre a ponta seca e o grafite. Tal  dist&acirc;ncia representa o raio da circunfer&ecirc;ncia ou do arco a ser tra&ccedil;ado.</p>
+<div class="lightbox"> <a href="imagens/05.png" title="Figura 5 - Transferidores de 180º e 360º"><img src="imagens/imagem05.png" width="245" height="211" border="0" /></a></div>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>f)<strong> Transferidor: </strong>instrumento utilizado para medir e tra&ccedil;ar &acirc;ngulos, deve ser  de material transparente e podem ser de meia volta (180&deg;) ou de volta completa  (360&deg;) (veja figura 5).</p>
+                <p>&nbsp;</p>
+<div class="referenciaBox"><div id="animar1" class="boxicone"><img src="../imgs/atencao.png" width="90" height="222" /></div></div>
+<div id="bloco1" style="display:none;">
+  <p>&Eacute;  fundamental que voc&ecirc;, aluno, tenha todo esse material em m&atilde;os para possa  realizar todas as constru&ccedil;&otilde;es corretamente. Ser&atilde;o as nossas &ldquo;ferramentas de  trabalho&rdquo;.</p>
+<div id="esconder1" class="fechar">Fechar <img src="../imgs/fechar.png" width="24" height="23" align="absmiddle" /></div>
+</div>
+<div style="clear:both;"></div>
+                <p>Caro  aluno, os desenhos e constru&ccedil;&otilde;es realizados nesta disciplina s&atilde;o atos  extremamente pr&aacute;ticos, no entanto &eacute; imprescind&iacute;vel que tenhamos uma base  te&oacute;rica do assunto que, por sinal, &eacute; uma regra geral em todo conhecimento:  teoria e pr&aacute;tica devem andar sempre lado a lado, n&atilde;o &eacute; mesmo?</p>
+                <div class="referenciaBoxdir">
+                  <div id="animar2" class="boxiconedir"><img src="../imgs/vocesabiadir.png" width="90" height="222" /></div></div>
+<div id="bloco2" style="display:none;">
+  <p>As  constru&ccedil;&otilde;es geom&eacute;tricas tiveram in&iacute;cio na antiguidade e deram grandes  contribui&ccedil;&otilde;es para o desenvolvimento da matem&aacute;tica. H&aacute; cerca de 2000 anos, n&atilde;o  havia n&uacute;meros negativos e as fra&ccedil;&otilde;es n&atilde;o eram consideradas n&uacute;meros. Tendo em  vista que n&atilde;o havia ainda n&uacute;meros reais, os gregos tiveram a ideia brilhante de  representar uma grandeza qualquer por um segmento de reta, o que &eacute; equivalente  dizer hoje que todo n&uacute;mero real positivo est&aacute; associado a um ponto de uma  semi-reta graduada.</p>
+<div id="esconder2" class="fechardir">Fechar <img src="../imgs/fechar.png" width="24" height="23" align="absmiddle" /></div>
+</div>
+<div style="clear:both;"></div>
+                <h4 class="subtitulo2"><strong><u>2.  Entes geom&eacute;tricos</u></strong></h4>
+                <div class="lightbox"> <a href="imagens/06.png" title="Figura 6 - Representa&ccedil;&atilde;o do ponto"><img src="imagens/imagem06.png" width="245" height="211" border="0" /></a></div>
+                <p>Os entes geom&eacute;tricos considerados  elementos fundamentais da geometria s&atilde;o conceitos primitivos e n&atilde;o possui defini&ccedil;&atilde;o. S&atilde;o eles:</p>
+<p><strong>a) Ponto</strong> &ndash; Conforme colocamos, o ponto &eacute; um elemento sem  defini&ccedil;&atilde;o e sem dimens&atilde;o. Geometricamente, ele &eacute; representado pelo sinal obtido  quando se toca a ponta do l&aacute;pis no papel e indicado por uma letra mai&uacute;scula do  nosso alfabeto (figura 6).</p>
+                <div class="lightboxdir"> <a href="imagens/07.png" title="Figura 7 - A linha tem apenas uma dimens&atilde;o"><img src="imagens/imagem07.png" width="245" height="211" border="0" /></a></div>
+                <p><strong>b) Linha </strong>&ndash; &Eacute; o resultado do deslocamento de um ponto no  plano ou no espa&ccedil;o (figura 7). Em desenho, &eacute; representada graficamente pelo  deslocamento do l&aacute;pis sobre o papel. A linha tem uma s&oacute; dimens&atilde;o: o  comprimento.</p>
+                <div class="lightbox"> <a href="imagens/08.png" title="Figura 8 - Representa&ccedil;&atilde;o do plano"><img src="imagens/imagem08.png" width="245" height="211" border="0" /></a></div>
+                <p><strong>c) Plano </strong>&ndash; &Eacute; outro conceito primitivo. Voc&ecirc; pode imagin&aacute;-lo como uma folha de papel infinita  (figura 8). Um plano &eacute; uma superf&iacute;cie plana que se estende infinitamente em  todas as dire&ccedil;&otilde;es. O  plano &eacute; representado, geralmente, por uma letra do alfabeto grego.</p>
+                <div class="lightboxdir"> <a href="imagens/09.png" title="Figura 9 - Por um ponto passam infinitas retas"><img src="imagens/imagem09.png" width="245" height="211" border="0" /></a></div>
+                <p><strong>d) Reta </strong>&ndash; Geralmente representada por uma letra  min&uacute;scula do alfabeto, a reta (figura 9) &eacute; uma linha infinita que tem uma &uacute;nica dire&ccedil;&atilde;o, ou seja,  &eacute; o caminho mais curto entre dois pontos quaisquer. Pelas caracter&iacute;sticas especiais deste ente  geom&eacute;trico e sua grande aplica&ccedil;&atilde;o em Geometria e Desenho, faremos seu estudo de  forma mais detalhada a seguir. </p>
+                <div class="lightbox"> <a href="imagens/10.png" title="Figura 10 - Por uma reta passam infinitos planos"><img src="imagens/imagem10.png" width="245" height="211" border="0" /></a></div>
+                <p>Por  uma reta passam infinitos planos, como mostra a figura 10.</p>
+                <p>Da ideia de reta originam-se outros  elementos fundamentais para o Desenho Geom&eacute;trico:</p>
+                <div class="lightboxdir"> <a href="imagens/11.png" title="Figura 11 - Semi-reta AB"><img src="imagens/imagem11.png" width="245" height="211" border="0" /></a></div>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p><strong>1. Semi-reta </strong>&eacute; o deslocamento do ponto, sem variar a dire&ccedil;&atilde;o, mas tendo um ponto como  origem (figura 11). Portanto, a semi-reta &eacute; infinita em apenas uma dire&ccedil;&atilde;o. Um  ponto qualquer, pertencente a uma reta, divide a mesma em duas semi-retas. Na  figura abaixo, temos uma semi-reta com origem no ponto A e que passa pelo ponto  B.</p>
+                <div class="lightbox"> <a href="imagens/12.png" title="Figura 12 - Segmento de reta AB"><img src="imagens/imagem12.png" width="245" height="211" border="0" /></a></div>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p><strong>2. Segmento de reta</strong> &eacute; a parte de uma reta, limitada por dois de  seus pontos, como mostra a figura 12. &nbsp;O segmento  de reta &eacute;, portanto, limitado e podemos atribuir-lhe um comprimento. O segmento  &eacute; representado pelos dois pontos que o limitam e que s&atilde;o chamados de  extremidades. Na figura abaixo, temos o segmento AB.</p>
+                <p>&nbsp;</p>
+                <div class="lightboxdir"> <a href="imagens/13.png" title="Figura 13 - Os segmentos AB e CD pertencem a mesma reta"><img src="imagens/imagem13.png" width="245" height="211" border="0" /></a></div>
+                <p><strong>3. Segmentos colineares</strong> s&atilde;o segmentos que pertencem &agrave; mesma reta  (Figura 13).</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p><strong>4. Segmentos consecutivos</strong> s&atilde;o segmentos cuja extremidade de um coincide  com a extremidade de outro, como mostra a figura 14. Na figura abaixo, os  segmentos AB, BC e CD s&atilde;o consecutivos.</p>
+                <div class="lightbox"> <a href="imagens/14.png" title="Figura 14 - AB, BC e CD s&atilde;o segmentos consecutivos"><img src="imagens/imagem14.png" width="245" height="211" border="0" /></a></div>
+                <p>&nbsp;</p>
+                <div class="lightboxdir"> <a href="imagens/15.png" title="Figura 15 - Retas coplanares"><img src="imagens/imagem15.png" width="245" height="211" border="0" /></a></div>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p><strong>5. Retas coplanares</strong> s&atilde;o retas que pertencem ao mesmo       plano. Na figura 15, as retas <strong>r</strong>, <strong>s</strong> e <strong>t</strong> s&atilde;o coplanares.</p>
+<p>&nbsp;</p>
+<h4 class="subtitulo2"><strong><u>3. Posi&ccedil;&otilde;es das retas</u></strong></h4>
+<p>&nbsp;  </p>
+<div class="lightbox"> <a href="imagens/16.png" title="Figura 16 - Reta r"><img src="imagens/imagem16.png" width="245" height="211" border="0" /></a></div>
+<p>Uma,  duas ou mais retas no plano podem assumir as seguintes posi&ccedil;&otilde;es:</p>
+<div class="lightboxdir"> <a href="imagens/17.png" title="Figura 17 - Reta concorrente"><img src="imagens/imagem17.png" width="245" height="211" border="0" /></a></div>
+<p>&nbsp;</p>
+<p><strong>a) Horizontal</strong>: &eacute; a posi&ccedil;&atilde;o que corresponde &agrave; linha do horizonte mar&iacute;timo.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>b) Vertical</strong>: &eacute; a posi&ccedil;&atilde;o perpendicular a horizontal.</p>
+                <div class="lightbox"> <a href="imagens/18.png" title="Figura 18 - Reta concorrente e perpendicular"><img src="imagens/imagem18.png" width="245" height="211" border="0" /></a></div>
+                <p>&nbsp;</p>
+                <p><strong>c) Obl&iacute;qua</strong>:  &eacute; a reta n&atilde;o est&aacute; nem na posi&ccedil;&atilde;o horizontal, nem  na posi&ccedil;&atilde;o vertical.</p>
+                <p>&nbsp; </p>
+                <div class="lightboxdir"> <a href="imagens/19.png" title="Figura 19 - Retas paralelas"><img src="imagens/imagem19.png" width="245" height="211" border="0" /></a></div>
+                <p>&nbsp;</p>
+                <p><strong>d)                Concorrentes</strong>:  s&atilde;o retas que se interceptam formando um &acirc;ngulo diferente de 90&deg; (possuem um  ponto em comum). Observa&ccedil;&atilde;o: Se duas retas concorrentes formam  entre si um &acirc;ngulo de 90&deg; ent&atilde;o elas s&atilde;o perpendiculares.</p>
+                <p>&nbsp;</p>
+                <p><strong>e) Paralelas </strong>&ndash; S&atilde;o retas que n&atilde;o possuem ponto em comum, ou  seja, t&ecirc;m a mesma dire&ccedil;&atilde;o.</p>
+<p>Neste  t&oacute;pico, apresentamos algumas defini&ccedil;&otilde;es que representam elementos b&aacute;sicos  necess&aacute;rios para o estudo da nossa disciplina. A seguir, daremos in&iacute;cio &agrave;s  primeiras constru&ccedil;&otilde;es geom&eacute;tricas b&aacute;sicas que envolvem retas.</p>
+</div>
+              <div class="TabbedPanelsContent" style="position:relative">
+                <div class="ntopico" style="position:absolute; left:-55px; top:17px; width: 58px; height: 48px;">&nbsp;2</div>
+                <div class="ntitulo"><strong>Retas paralelas e perpendiculares</strong></div>
+                <div class="nsubtitulo">
+                  Objetivos
+                    <ul>
+                    <li>Aprender a tra&ccedil;ar retas perpendiculares  e retas paralelas</li>
+                    <li>Dividir um segmento de reta em partes  proporcionais</li>
+                  </ul>
+                </div>
+                <p>Nas constru&ccedil;&otilde;es geom&eacute;tricas, permitiremos apenas a  r&eacute;gua (n&atilde;o graduada) e o compasso. A r&eacute;gua deve ser utilizada apenas para  desenhar uma reta que passa por dois pontos. Da mesma forma, o compasso deve  ser usado apenas para desenhar uma circunfer&ecirc;ncia, cujo raio &eacute; dado por um  segmento de reta e o centro por um ponto dado. Dessa forma, n&atilde;o ser&aacute; permitido  o uso desses instrumentos de outra maneira.</p>
+                <p> Neste t&oacute;pico, trataremos de dois procedimentos  b&aacute;sicos que s&atilde;o o tra&ccedil;ado de paralelas e o tra&ccedil;ado de perpendiculares.<strong></strong></p>
+                <h4 class="subtitulo2"><strong><u>2.1. Tra&ccedil;ado de  perpendiculares</u></strong></h4>
+                <p>Temos  quatro casos a considerar: </p>
+<div class="lightbox"> <a href="imagens/20.png" title="Figura 20 - A reta AD &eacute; perpendicular &agrave; reta r"><img src="imagens/imagem20.png" width="245" height="211" border="0" /></a></div>
+                <p><strong>a)  Perpendicular que passa por um ponto qualquer, pertencente a uma reta&nbsp; </strong>procedimento: desenha-se uma reta r qualquer e o ponto  A, pertencente a ela, como mostra a figura 1.<strong></strong></p>
+                <p>Com a ponta seca do compasso em A, abertura  qualquer, cruza-se a reta com dois arcos, um para um lado e o outro para o  outro lado, gerando os pontos B e C. Em seguida, centro em B e C com abertura  aproximadamente 75% do segmento BC obt&ecirc;m o cruzamento desses dois arcos, gerando  o ponto D. A perpendicular ser&aacute; a reta que passa pelos pontos A e D.</p>
+                <div class="lightboxdir"> <a href="imagens/21.png" title="Figura 21 - Reta AD perpendicular &agrave; reta r, passando pelo ponto A"><img src="imagens/imagem21.png" width="245" height="211" border="0" /></a></div>
+<p>O  fato importante das constru&ccedil;&otilde;es geom&eacute;tricas &eacute; que n&atilde;o basta encontrar a  solu&ccedil;&atilde;o. &Eacute; necess&aacute;rio justificar por que ela &eacute; correta. Neste problema, a  primeira circunfer&ecirc;ncia desenhada garante que AB=AC enquanto que a segunda  circunfer&ecirc;ncia garante que DB=DC. Dessa forma, os pontos D e A equidistam de B  e C, consequentemente D e A pertencem a mediatriz do segmento BC que &eacute; a  perpendicular de BC passando pelo ponto m&eacute;dio.</p>
+<p><strong>b) Perpendicular que passa por um ponto  n&atilde;o pertencente a uma reta</strong></p>
+<p>  Procedimento: Seja  a reta r e o ponto A n&atilde;o pertencente a ela (figura 21)</p>
+<p>  Centro  em A, abertura qualquer, suficiente para tra&ccedil;ar um arco que corte a reta em  dois pontos B e C. Em seguida, centro em B e C, com a  mesma abertura, cruzam-se os arcos, obtendo-se o ponto D.&nbsp; A perpendicular &eacute; a reta que passa pelos  pontos A e D.</p>
+<div class="lightbox"> <a href="imagens/22.png" title="Figura 22 - AF perpendicular &agrave; AB passando por uma de suas extremidades"><img src="imagens/imagem22.png" width="245" height="211" border="0" /></a></div>
+<p>Os  raios AB e AC s&atilde;o iguais da mesma forma que BD e BC. Assim AD definem a  perpendicular.</p>
+<p> <strong>c) Perpendicular que passa pela  extremidade de um segmento de reta</strong></p>
+<p>  Procedimento: Seja  o segmento de reta AB mostrado na figura 22.</p>
+<p>Centro em uma das extremidades, digamos A, abertura  qualquer, tra&ccedil;a-se o arco que corta o segmento gerando o ponto C. Com a mesma  abertura, e com centro em C, cruza-se o primeiro arco, obtendo-se o ponto D. Em  seguida, centro em D, ainda com a mesma abertura, cruza-se o primeiro arco, obtendo-se  o ponto E.&nbsp; Continuando com a mesma  abertura, centra-se em D e E, cruzando estes dois arcos e determinando o ponto  F. Nossa perpendicular &eacute; a reta que passa pela extremidade escolhida e o ponto  F.</p>
+<p>Nesta  constru&ccedil;&atilde;o, mantemos a mesma abertura (raio) do compasso durante todo o  processo, sendo assim ADC forma um tri&acirc;ngulo equil&aacute;tero, consequentemente  CD=DE=60&deg;. Considerando que os arcos DF e EF s&atilde;o iguais ent&atilde;o DG &eacute; um arco de  30&deg;, ou seja, o arco CG mede 90&deg; e a reta FG &eacute; perpendicular a AB passando pelo  ponto A.</p>
+<div class="lightboxdir"> <a href="imagens/23.png" title="Figura 23 - CD &eacute; mediatriz de AB"><img src="imagens/imagem23.png" width="245" height="211" border="0" /></a></div>
+<p><strong>d) Perpendicular que passa pelo ponto m&eacute;dio de  um segmento de reta (Mediatriz)</strong></p>
+<p>Procedimento: Centro  em uma das extremidades, com abertura de aproximadamente 75% do segmento AB,  tra&ccedil;a-se o arco que percorre as regi&otilde;es acima e abaixo do segmento como mostra  a figura 23. Com a mesma abertura, centra-se na outra extremidade e cruza-se  com o primeiro arco, nos pontos C e D. A Mediatriz &eacute; a reta que passa pelos  pontos C e D.</p>
+<p>Caro  aluno observe que as dist&acirc;ncias entre as extremidades do segmento e os pontos C  e D s&atilde;o todas iguais, fazendo com que a reta que passa por C e D, al&eacute;m de ser  perpendicular, cruze o mesmo exatamente no seu ponto m&eacute;dio. Portanto, CD &eacute;  perpendicular a AB passando pelo ponto m&eacute;dio M.</p>
+<h4 class="subtitulo2"><strong><u>2.2 Tra&ccedil;ado de paralelas</u></strong></h4>
+<div class="lightbox"> <a href="imagens/24.png" title="Figura 24 - A reta AC &eacute; paralela a reta BD"><img src="imagens/imagem24.png" width="245" height="211" border="0" /></a></div>
+<p><strong>Paralela que passa por um ponto qualquer n&atilde;o  pertencente a uma reta</strong></p>
+<p>Sejam  a reta r e o ponto A, fora da reta, como mostra a figura 24.</p>
+<p>Centro em A, abertura qualquer, tra&ccedil;a-se o arco  que cruza a reta em B. Com a mesma abertura, centro em B, raio AB, tra&ccedil;a-se o  arco que vai cruzar a reta no ponto D. Com a ponta seca do compasso em D,  faz-se abertura at&eacute; A, medindo-se, portanto esse arco.&nbsp; Transporta-se, ent&atilde;o, a medida do arco AD a  partir de B, sobre o primeiro arco tra&ccedil;ado, obtendo-se o ponto C. Nossa  paralela &eacute; a reta que passa pelos pontos C e A.</p>
+<h4 class="subtitulo2"><strong><u>2.3 Divis&atilde;o de um  segmento de reta em um n&uacute;mero qualquer de partes iguais </u></strong></h4>
+<div class="lightboxdir"> <a href="imagens/25.png" title="Figura 25 - Divis&atilde;o da reta AB em cinco partes iguais"><img src="imagens/imagem25.png" width="245" height="211" border="0" /></a></div>
+<p>Seja o segmento de reta AB da figura 25. Vamos  dividi-lo em 5 partes iguais. Por uma das extremidades, tra&ccedil;amos uma reta  suporte com inclina&ccedil;&atilde;o aproximada de 30&deg;.&nbsp;  Com abertura qualquer do compasso, aplica-se essa dist&acirc;ncia sobre a reta  inclinada o n&uacute;mero de vezes em que vamos dividir o segmento, no caso 5 vezes.</p>
+<p>Em seguida, enumeramos as marca&ccedil;&otilde;es de  dist&acirc;ncias a partir da extremidade escolhida, de modo que a &uacute;ltima marca&ccedil;&atilde;o (n&ordm;  5) &eacute; unida &agrave; outra extremidade (no caso a extremidade B). Constru&iacute;mos retas  paralelas a 5B passando pelos pontos de divis&otilde;es (1, 2, 3, 4 e 5) com o aux&iacute;lio  da r&eacute;gua e compasso (veja procedimento abaixo). Dessa forma, determinamos os  pontos 1&rsquo;, 2&rsquo;, 3&rsquo; e 4&rsquo; que representam os pontos que dividem a reta AB em cinco  partes&nbsp; iguais.</p>
+<h4 class="subtitulo2"><strong>2.4 M&eacute;todo pratico para se desenhar  retas paralelas com o aux&iacute;lio da r&eacute;gua e compasso. Vamos ao passo a passo:</strong></h4>
+<p>&nbsp; </p>
+<div class="lightbox"> <a href="imagens/26.png" title="Figura 26 - Posi&ccedil;&atilde;o r&eacute;gua e compasso"><img src="imagens/imagem26.png" width="245" height="211" border="0" /></a></div>
+<p>1.  Deseja-se tra&ccedil;ar retas paralelas a reta r.</p>
+<p>&nbsp;</p>
+<p>2. Inicialmente, posiciona-se a r&eacute;gua e o  esquadro conforme a figura ao lado.</p>
+<div class="lightboxdir"> <a href="imagens/27.png" title="Figura 27 - R&eacute;gua, esquadro e compasso"><img src="imagens/imagem27.png" width="245" height="211" border="0" /></a></div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>3. Mantendo a r&eacute;gua,  posicione o esquadro de modo que um dos seus catetos coincida com a reta  dada.&nbsp; Em seguida, fa&ccedil;a deslizar o esquadro  apoiado na r&eacute;gua e trace uma outra reta.</p>
+<p>&nbsp;</p>
+<div class="lightbox"> <a href="imagens/28.png" title="Figura 28 - Tra&ccedil;ado das retas"><img src="imagens/imagem28.png" width="245" height="211" border="0" /></a></div>
+<p>4. Deslize  o esquadro novamente e trace outra linha. Repetindo esse processo, o aluno  estar&aacute; desenhado retas paralelas &agrave; reta r.</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>Neste  t&oacute;pico, estudamos as constru&ccedil;&otilde;es b&aacute;sicas que s&atilde;o os tra&ccedil;ados de paralelas e  perpendiculares. No pr&oacute;ximo t&oacute;pico, daremos continuidade &agrave; nossa aula  realizando constru&ccedil;&otilde;es envolvendo &acirc;ngulos.</p></div>
+<div class="TabbedPanelsContent">
+          <p>BRAGA, Theodoro. <strong>Desenho Linear Geom&eacute;trico</strong>.  13&deg; ed. 230 p. S&atilde;o Paulo: &Iacute;cone,</p>
+                <p> RIVERA, F&eacute;lix; NEVES, Juarenze; GON&Ccedil;ALVES, Dinei. <strong>Tra&ccedil;ados  em Desenho Geom&eacute;trico</strong>. Rio Grande: editora da Furg, 1986.</p>
+                <p>WAGNER, E. <strong>Constru&ccedil;&otilde;es geom&eacute;tricas</strong>. Rio  de Janeiro: SBM, Cole&ccedil;&atilde;o do Professor de Matem&aacute;tica, 1993.</p>
+                <div>
+  <div> </div>
+</div>
+              </div>
+		    </div>
+	      </div>
+		  <p>&nbsp;</p>
+  </div>
+</div>
+  <div class="rodape">
+    <div class="rodapeesq">DEAD / NTEAD / Universidade Aberta do Brasil</div>
+    <div class="rodapedir">Prof.   Marcos Macedo</div>
+  </div>
+<script type="text/javascript">
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+</script>
+</body>
+</html>
