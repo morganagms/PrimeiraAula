@@ -1,0 +1,572 @@
+body {
+	background:url(../imgs/fundo.jpg) repeat;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.TabbedPanelsContent ol li {
+	list-style-type:square;
+	list-style-position:inside;
+	text-indent:20px;
+}
+p {
+	text-indent:25px;
+	line-height:180%;
+}
+a {
+	outline:none;
+}
+#corpo {
+	width:100%;
+	margin-top:190px;
+}
+.cabecalho {
+	height:140px;
+	background:url(../imgs/cab.jpg) repeat-x;
+	margin:0px;
+	width:100%;
+	position:fixed;
+	left:0px;
+	top:0px;
+	clear:both;
+	z-index:9999999;
+}
+.cabecalho .logoesq {
+	width:97%;
+	height:100px;
+	margin:15px;
+	background:url(../imgs/ifce.png) no-repeat center;
+	float:left;
+	clear:both;
+}
+.logodir {
+	width:100%;
+	position:fixed;
+	left:0px;
+	top:140px;
+	height:40px;
+	font-size:20px;
+	padding-left:15px;
+	color:#FFF;
+	font-weight:bolder;
+	background:url(../imgs/curso.png) repeat-x;
+	z-index:99101;
+}
+.logodir .cursodireita {
+	width:50%;
+	float:left;
+	padding-top:2px;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+.logodata {
+	width:40%;
+	height:26px;
+	font-size:12px;
+	color:#FFF;
+	text-align:right;
+	float:right;
+	padding-right:15px;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+.cabecalho .logo1 {
+	width:auto;
+	float:left;
+}
+.cabecalho .logo2 {
+	width:auto;
+	float:right;
+}
+#corpo .conteudo {
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	margin-top:15px;
+	margin-bottom:15px;
+	font-size:12px;
+}
+#corpo .titulo {
+	font-size:22px;
+	color:#000;
+	font-weight:bolder;
+	margin-bottom:10px;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+.ntopico {
+	height:98px;
+	width:106px;
+	background:url(../imgs/ntopico.png) no-repeat;
+	padding:25px;
+	position:absolute;
+	left:-55px;
+	top:17px;
+	width:58px;
+	height: 48px;
+	color:#FFF;
+	font-weight:bolder;
+	font-size:40px;
+}
+.nlousa {
+	height:98px;
+	width:106px;
+	background:url(../imgs/nlousa.png) no-repeat;
+	padding:25px;
+	color:#FFF;
+	font-weight:bolder;
+	font-size:40px;
+}
+.ntitulo {
+	height:auto;
+	width:91%;
+	margin-left:50px;
+	margin-top:30px;
+	font-size:20px;
+	clear:both;
+	padding-bottom:10px;
+/*	text-transform:capitalize;*/
+	color:#5A8700;
+/*	border-bottom:1px solid #5F8F1A;*/
+}
+.nsubtitulo {
+	height:auto;
+	margin-left:50px;
+	font-size:14px;
+	margin-bottom:40px;
+	border-bottom:1px dashed #5F8F1A;
+	border-right:1px dashed #5F8F1A;
+	border-left:1px dashed #5F8F1A;
+	border-top:1px dashed #5F8F1A;
+	background-color:#F4F4F4;
+	padding:10px 15px 10px 15px;
+	color:#00552B;
+	width:87%;
+}
+.rodape {
+	width:100%;
+	background:url(../imgs/menubarselected.png) repeat-x;
+	height:40px;
+	color:#FFF;
+	font-size:80%;
+	clear:both;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	z-index:29990;
+}
+.rodape .rodapeesq {
+	padding-top:16px;
+	padding-left:20px;
+	width:50%;
+	height:30px;
+	float:left;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+.rodape .rodapedir {
+	padding-top:16px;
+	padding-right:20px;
+	text-align:right;
+	width:40%;
+	height:30px;
+	float:right;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+.lightbox {
+	width:245px;
+	margin:5px 15px 5px 0px;
+	height:auto;
+	font-size:9px;
+	text-align:center;
+	float:left;	
+	-moz-opacity: 0.8;
+	outline:none;
+}
+.lightbox:hover {
+	width:245px;
+	margin-right:15px;
+	height:auto;
+	font-size:9px;
+	text-align:justify;
+	text-align:center;
+	float:left;	
+	-moz-opacity: 1;
+	outline:none;
+}
+.lightboxdir {
+	width:245px;
+	margin:5px 0px 5px 15px;
+	height:auto;
+	font-size:9px;
+	text-align:center;
+	float:right;	
+	-moz-opacity: 0.8;
+	outline:none;
+}
+.lightboxdir:hover {
+	width:245px;
+	margin-left:15px;
+	height:auto;
+	font-size:9px;
+	text-align:center;
+	float:right;
+	-moz-opacity: 1;
+	outline:none;
+}
+.onover {
+	cursor:pointer;
+	font-weight:bold;
+	color:#069;	
+}
+#corpo #tip1 {
+	width:auto;
+	height:auto;
+	margin:0px;
+	padding:0px;
+}
+.div90 {
+	margin-top:25px;
+	width:100%;
+}
+.seta {
+	position:absolute;
+	right:-12px;
+	top: -11px;
+}
+.aulaDestaque {
+	width:95%;
+	font-size:12px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	background:url(../imgs/papel.png) bottom left no-repeat;
+	border-bottom:2px dashed #069;
+	border-right:2px dashed #069;
+}
+.subtitulo {
+	background:url(../imgs/pintura.png) right top no-repeat;
+	border-bottom:1px solid #5F8F1A;
+	color:#5F8F1A;
+	padding-top:15px;
+	margin-bottom:35px;
+	width:100%;
+	font-size:18px;
+	height:32px;
+}
+.subtitulo2 {
+	background:url(../imgs/pintura.png) right top no-repeat;
+	border-bottom:1px solid #5F8F1A;
+	color:#5F8F1A;
+	padding-top:15px;
+	padding-bottom:20px;
+	width:100%;
+	font-size:18px;
+	height:32px;
+}
+.secao {
+	color:#069;
+	padding-top:15px;
+	font-size:15px;
+}
+.enfase {
+	font-size:14px;
+}
+.fundoapres {
+	background:url(../imgs/fundoapres.jpg) no-repeat center;
+}
+.boxicone {
+	width:25px;
+	height:222px;
+	position:absolute;
+	left: -120px;
+	top:-8px;
+	-moz-opacity:0.75;
+}
+.boxicone:hover {
+	width:25px;
+	height:222px;
+	position:absolute;
+	left: -120px;
+	top:-8px;
+	cursor:pointer;
+	-moz-opacity:1;
+}
+.boxiconedir {
+	width:25px;
+	height:222px;
+	position:absolute;
+	right:-56px;
+	top:-8px;
+	-moz-opacity:0.75;
+}
+.boxiconedir:hover {
+	width:25px;
+	height:222px;
+	position:absolute;
+	right:-56px;
+	top:-8px;
+	cursor:pointer;
+	-moz-opacity:1;
+}
+.referenciaBox {
+	position:relative;
+	width:90%;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.referenciaBoxdir {
+	position:relative;
+	width:100%;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+#bloco1,#bloco2,#bloco3,#bloco4,#bloco5,#bloco6,#bloco7,#bloco8,#bloco9,#bloco10,#bloco11,#bloco12,#bloco13,#bloco14,#bloco15,#bloco16,#bloco17,#bloco18,#bloco19,#bloco20,#bloco21,#bloco22,#bloco23,#bloco24,#bloco25,#bloco26,#bloco27,#bloco28,#bloco29,#bloco30 { 
+    width:0px;
+    height:auto;
+    border:2px solid #5F8F1F;
+	text-align:justify;
+	padding-left:25px;
+	padding-right:25px;
+	margin:15px 20px 15px 20px;
+    font-size:11px;
+	background:url(../imgs/fundofechar.png) #EFEFEF repeat-x bottom;
+	z-index:9999;
+	float:left;
+	clear:both;
+}
+.fechar {
+	cursor:pointer;
+	text-align:right;
+	color:#FFF;
+	font-size:14px;
+	font-weight:bolder;
+	-moz-opacity:0.8;
+	text-shadow:none;
+	text-decoration:none;
+}
+.fechar:hover {
+	cursor:pointer;
+	text-align:right;
+	color:#FFF;
+	font-size:14px;
+	font-weight:bolder;
+	-moz-opacity:1;
+	text-shadow:none;
+	text-decoration:none;
+}
+.fechardir {
+	cursor:pointer;
+	text-align:left;
+	color:#FFF;
+	font-size:14px;
+	font-weight:bolder;
+	-moz-opacity:0.8;
+	text-shadow:none;
+	text-decoration:none;
+}
+.fechardir:hover {
+	cursor:pointer;
+	text-align:left;
+	color:#FFF;
+	font-size:14px;
+	font-weight:bolder;
+	-moz-opacity:1;
+	text-shadow:none;
+	text-decoration:none;
+}
+.caixaDestaque {
+	width:80%;
+	border:2px dashed #0067C1;
+	position:relative;
+	text-align:justify;
+	padding:5px 25px 5px 25px;
+	background-color:#F5FAED;
+	color:#000;
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.iconecaixaDest {
+	position:absolute;
+	height:auto;
+	width:auto;
+	left: -17px;
+	top: -17px;
+}
+.objetivosini {
+	width:80%;
+	background-color:#F5F5F5;
+	color:#030;
+	padding:20px 20px 10px 10px;
+	text-align:justify;
+	border:2px dotted #390;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	margin-bottom:15px;
+	clear:both;
+	position:relative;
+}
+.objetivosico {
+	position:absolute;
+	left: -30px;
+	width: 46px;
+	top: -30px;
+	height: 21px;
+}
+.divapres {
+	text-align:justify;
+	margin-top:35px;
+}
+.nicones {
+	color:#000;
+	float:left;
+	font-weight:bolder;
+	font-size:40px;
+	left:-75px;
+	width:44px;
+	position:relative;
+	margin:0px 75px 5px 0px;
+}
+.commentvideo {
+	float:right;
+	width:35%;
+	font-size:13px;
+	font-style:italic;
+	border-left:1px dotted #069;
+	padding-left:15px;
+	padding-bottom:15px;
+	margin-left:10px;
+	margin-right:30px;
+	padding-top:15px;
+	margin-top:20px;
+	text-align:justify;
+}
+.commentvideodir {
+	float:left;
+	width:35%;
+	font-size:13px;
+	font-style:italic;
+	border-right:1px dotted #069;
+	padding-right:15px;
+	padding-bottom:15px;
+	margin-left:30px;
+	margin-right:10px;
+	padding-top:15px;
+	margin-top:20px;
+	text-align:justify;
+}
+object {
+	outline:none;
+}
+.videoDiv {
+	width:auto;
+	margin-left:0px;
+	margin-right:5px;
+	border-bottom:1px dashed #069;
+	border-top:1px dashed #069;
+	border-right:1px dashed #069;
+	background:url(../imgs/videoDiv.png) no-repeat bottom right;
+	float:left;
+	padding-bottom:55px;
+	padding-left:0px;
+	padding-right:20px;
+	z-index:0;
+}
+.videoDivdir {
+	width:auto;
+	margin-left:5px;
+	margin-right:0px;
+	border-bottom:1px dashed #069;
+	border-top:1px dashed #069;
+	border-left:1px dashed #069;
+	background:url(../imgs/videoDivdir.png) no-repeat bottom left;
+	float:right;
+	padding-bottom:55px;
+	padding-top:20px;
+	padding-left:20px;
+	padding-right:20px;
+	z-index:0;
+}
+.videoBloco {
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	clear:both;
+}
+.comentarioAutor {
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px 25px 10px 25px;
+	font-size:90%;
+	background-color:#F5F5F5;
+	text-align:justify;
+	margin-top:70px;
+	border-top:1px solid #547C17;
+	border-right:1px solid #547C17;
+	border-left:1px solid #547C17;
+	border-bottom:1px solid #547C17;
+	position:relative;
+}
+.comentarioCred {
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px 25px 5px 25px;
+	font-weight:bolder;
+	text-align:right;
+	background-color:#F5F5F5;	
+	border-top:1px dashed #547C17;
+	text-transform:uppercase;
+	color:#069;
+}
+.comentarioCit {
+	position:absolute;
+	top:-20px;
+	right:20px;
+	width: 0px;
+}
+.avalforum, .avaltarefa {
+	width:80%;
+	margin-bottom:30px;
+	margin-top:30px;
+	border:2px dotted #069;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+	position:relative;
+	padding:5px 25px 5px 25px;
+}
+.avaltitulo {
+	font-size:16px;
+	color:#069;
+	border-bottom:1px dashed #4D7215;
+	padding-bottom:5px;
+}
+.avalico {
+	position:absolute;
+	width:auto;
+	height:auto;
+	left: -62px;
+	top: 0px;
+}
+.niconesintro {
+	color:#000;
+	float:left;
+	font-weight:bolder;
+	font-size:40px;
+	left:-35px;
+	width:44px;
+	position:relative;
+	margin:0px 75px 5px 0px;
+}
+.bubbleInfo {
+    position: relative;
+}
+
+.popup {
+    position: absolute;
+    display: none; /* keeps the popup hidden if no JS available */
+}
